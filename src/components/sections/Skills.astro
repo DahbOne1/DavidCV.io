@@ -1,0 +1,43 @@
+---
+import SectionContainer from "../SectionContainer.astro";
+
+import {skills} from "@cv";
+---
+
+
+<SectionContainer title="Habilidades">
+    <ul>
+        {
+            skills.map(({keywords}) => (
+                
+                keywords.map((key:any) => {
+                    return(
+                        <li>{key}</li>
+                    )
+                    
+                })
+               
+            ))
+        }
+
+    </ul>
+
+</SectionContainer>
+
+<style>
+    ul{
+        display: inline-flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+
+    li{
+        border-radius: 6px;
+        color: white;
+        background-color: #222;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.2rem 0.6rem;
+    }
+</style>

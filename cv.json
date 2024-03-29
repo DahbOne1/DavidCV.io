@@ -1,0 +1,191 @@
+{
+    "basics": {
+      "name": "David Antonio Hernández Brito",
+      "label": "Ingeniero en Sistemas Computacionales",
+      "image": "/img/ImgHero.webp",
+      "email": "David.arcos1000@gmail.com",
+      "phone": "(747) 1 24 08 90",
+      "url": "https://davidhernandezbrito.com/",
+      "summary": [
+        "Hola, mi nombre completo es David Antonio Hernández Brito, tengo 23 años y soy originario de Guerrero, México. Mi primer Hola mundo fue con Phyton a los 16 años en un curso de programación. Ahora, soy un recién egresado del Tecnológico Nacional de México campus Chilpancingo en la carrera de Ingeniería en Sistemas Computacionales.",
+        "Como estudiante busqué aprovechar cada oportunidad que me brindó mi universidad, participando en 2 veranos de investigación interculturales en el Programa Delfín. Con dos proyectos que fueron retos importantes para mí, al desconocer en profundidad el manejo de las tecnologías que se utilizaron, y que afortunadamente me hicieron crecer a nivel profesional y personal. También tuve la oportunidad de dejar algo a mi institución al ser co-creador del logo del 39 aniversario de la misma.",
+        "Mi proyecto de prácticas profesionales en la Comisión Federal de Electricidad Zona Chilpancingo me permitió vivir la experiencia del mundo laboral de cerca. Al tener la responsabilidad de desarrollar un producto de software funcional y atractivo, sin duda mi mayor reto profesional que he tenido hasta el momento.",
+        "Muchas gracias por darte el tiempo de leerme, ten un buen día."
+      ],
+      "location": {
+        "country": "México",
+        "state": "Guerrero",
+        "city": "Chilpancingo de los Bravo"
+      },
+      "profiles": [{
+        "network": "LinkedIn",
+        "username": "David Antonio Hernández Brito",
+        "url": "https://www.linkedin.com/in/david-antonio-hern%C3%A1ndez-brito-213a951b8/"
+      },{
+        "network": "Github",
+        "username": "DahbOne1",
+        "url": "https://github.com/DahbOne1"
+      }]
+    },
+    "work": [{
+      "name": "Comisión Federal de Electricidad",
+      "position": "Desarrollador de Software | Prácticas Profesionales",
+      "url": "https://company.com",
+      "startDate": "2023-10-25",
+      "endDate": "2024-02-25",
+      "summary": "Diseño y desarrollo una aplicación web hibrida para la superintendencia de la Comisión Federal de Electricidad Zona Chilpancingo de gestión de parque vehicular.",
+      "highlights": [
+        "Started the company"
+      ]
+    }],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Tenologico Nacional de México Campus Chilpancingo",
+      "url": "https://chilpancingo.tecnm.mx/",
+      "area": "Ingeria en Sistemas Computacionales",
+      "studyType": "Licenciatura",
+      "startDate": "2011-12-15",
+      "endDate": "2013-07-15",
+      "score": "9.17",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Certificate",
+      "date": "2021-11-07",
+      "issuer": "Company",
+      "url": "https://certificate.com"
+    }],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [{
+      "name": "Web Development",
+      "level": "Avanzado",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Tailwind"
+      ]
+    },{
+      "name": "Web Development",
+      "level": "Medio",
+      "keywords": [
+        "Java",
+        "PHP",
+        "Laravel",
+        "MySql",
+        "Firebase",
+        "Astro"
+      ]},{
+        "name": "Web Development",
+        "level": "Basico",
+        "keywords": [
+          "Flutter",
+          "Oracle",
+          "React"
+        ]}
+    ],
+    "languages": [{
+      "language": "English",
+      "fluency": "Native speaker"
+    }],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "url": "https://project.com/",
+      "isActive": true,
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ]
+      
+    },{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "url": "https://project.com/",
+      "isActive": true,
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ]
+    },{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "url": "https://project.com/",
+      "isActive": true,
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ]
+    },{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "url": "https://project.com/",
+      "isActive": true,
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ]
+      
+    },{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "url": "https://project.com/",
+      "isActive": true,
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ]
+    },{
+      "name": "Project",
+      "startDate": "2019-01-01",
+      "endDate": "2021-01-01",
+      "description": "Description...",
+      "url": "https://project.com/",
+      "isActive": true,
+      "highlights": [
+        "Won award at AIHacks 2016"
+      ]
+    }
+  
+    ]
+  }

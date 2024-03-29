@@ -1,0 +1,78 @@
+---
+import SectionContainer from "../SectionContainer.astro";
+import {education} from "@cv";
+---
+
+<SectionContainer title="Educación">
+    {education.map(({institution,url,area,studyType,startDate,endDate,score,courses}) =>{
+        const startYear = new Date(startDate).getFullYear();
+        const endYear = new Date(endDate).getFullYear();
+        const years = `${startYear} - ${endYear}`;
+
+        return(
+            <article>
+                <header>
+                    <h3>{institution}</h3>
+                    <a href={url}>{url}</a>     
+                </header>
+                <footer>
+                    <h4>{studyType}</h4>
+                    <div>
+                        <h5>{area}</h5>
+                        <time>{years}</time>   
+                    </div>
+                    <span class="score">{score}</span>
+                </footer>
+            </article>
+        )
+    })}
+
+
+
+
+</SectionContainer>
+
+<style>
+    header a{
+        display: block;
+        margin-top: 5px;
+        color: #555;
+        font-size: 0.8rem;
+    }
+
+    article h3{
+        font-weight: 500;
+        color: #111;
+    }
+
+    article h4{
+        color: #333;
+        font-weight: 400;
+    }
+
+    article h5{
+        color: #555;
+        font-weight: 100;
+    }
+
+    footer{
+        margin-top: 5px;
+    }
+
+    div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 4px;
+    }
+
+    time, .score{
+        font-size: 0.85rem;
+        color: #555;
+    }
+
+    .score{
+        display: block;
+        margin-top: 6px;
+    }
+</style>

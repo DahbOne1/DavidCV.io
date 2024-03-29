@@ -1,0 +1,23 @@
+---
+import SectionContainer from "../SectionContainer.astro";
+
+import {basics} from "@cv";
+const {summary} = basics;
+---
+
+
+<SectionContainer title="Sobre mi">
+    <div>
+        {summary.map((summary) => {
+            return(<p>{summary}</p>) 
+        })}
+    </div>
+</SectionContainer>
+
+<style>
+    p{
+        margin-bottom:15px;
+        text-wrap: pretty;
+    }
+    
+</style>
