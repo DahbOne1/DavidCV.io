@@ -1,0 +1,33 @@
+---
+import SectionContainer from "../SectionContainer.astro";
+import {languages} from "@cv";
+
+---
+<SectionContainer title="Idiomas">
+    <article>
+        {languages.map(({language, fluency}) => {
+           return(
+                <span>{language} : {fluency}</span>
+           )
+        })}
+    </article>
+    
+</SectionContainer>
+
+<style>
+    article{
+        display: flex;
+        gap: 5px;
+    }
+
+    span{
+        border-radius: 6px;
+        color: white;
+        background-color: #222;
+        font-size: 0.8rem;
+        font-weight: 500;
+        padding: 0.4rem 0.8rem;
+    }
+</style>
+
+

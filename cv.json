@@ -68,10 +68,30 @@
       "summary": "There is no spoon."
     }],
     "certificates": [{
-      "name": "Certificate",
-      "date": "2021-11-07",
-      "issuer": "Company",
-      "url": "https://certificate.com"
+      "name": "Certificado en HTML",
+      "date": "2020-07",
+      "issuer": "SoloLearn",
+      "url": "https://www.sololearn.com/certificates/CT-3AXD9XLJ"
+    },{
+      "name": "Certificado en CSS",
+      "date": "2021-07",
+      "issuer": "SoloLearn",
+      "url": "https://www.sololearn.com/certificates/CT-TK6LAGUZ"
+    },{
+      "name": "Certificado en JavaScript",
+      "date": "2022-01",
+      "issuer": "SoloLearn",
+      "url": "https://www.sololearn.com/certificates/CT-W2YE7AJN"
+    },{
+      "name": "Certificado en Java",
+      "date": "2022-08",
+      "issuer": "SoloLearn",
+      "url": "https://www.sololearn.com/certificates/CT-8WAUFZ2M"
+    },{
+      "name": "Certificado en Resposive Web Design",
+      "date": "2022-12",
+      "issuer": "SoloLearn",
+      "url": "https://www.sololearn.com/certificates/CT-QR1N5BWS"
     }],
     "publications": [{
       "name": "Publication",
@@ -109,8 +129,11 @@
         ]}
     ],
     "languages": [{
-      "language": "English",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Hablante Nativo"
+    },{
+      "language": "Inglés",
+      "fluency": "B1"
     }],
     "interests": [{
       "name": "Wildlife",
@@ -124,66 +147,78 @@
       "reference": "Reference…"
     }],
     "projects": [{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "url": "https://project.com/",
+      "name": "Conversor Binario",
+      "startDate": "2024-01-15",
+      "endDate": "2024-02-02",
+      "description": "Aplicación web conversor de números entre varios sistemas numéricos, incluyendo binario, octal, decimal y hexademical. ",
+      "url": "https://conversorbinario.calculadoradeconjuntos.site/",
       "isActive": true,
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Diseño Responsivo",
+        "Formulario de Contacto",
+        "Vanilla JavaScript"
+      ] },{
+      "name": "Calculadora de Conjuntos",
+      "startDate": "2024-02-18",
+      "endDate": "2021-03-02",
+      "description": "Aplicación web que permite realizar operaciones con 2 conjuntos de números, incluyendo los las operaciones de unión, intersección, diferencia y diferencia simétrica.",
+      "url": "https://calculadoradeconjuntos.site/",
+      "isActive": true,
+      "highlights": [
+        "Diseño Responsivo",
+        "Vanilla JavaScript"
+      ]
+    },{
+      "name": "Carbonell + Zapata",
+      "startDate": "2023-06-22",
+      "endDate": "2023-07-28",
+      "description": "Página web informativa sobre el despacho de abogados Carbonell Zapata Migration Law, dedicado a trat situaciones legales migratorias.",
+      "url": "https://carbonellzapata.info/",
+      "isActive": true,
+      "highlights": [
+        "Diseño Responsivo",
+        "Formulario de Contacto",
+        "Multi-idioma"
+      ]
+    },{
+      "name": "GEVE",
+      "startDate": "2023-10-25",
+      "endDate": "2024-02-25",
+      "description": "Proyecto de practicas profesionales para la Comisión Federal de Electricidad.",
+      "url": "",
+      "isActive": false,
+      "highlights": [
+        "Diseño Responsivo",
+        "Lavarel",
+        "Conexión a Base de Datos",
+        "Envio de Formulario",
+        "Inicio de Sesión"
       ]
       
     },{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "url": "https://project.com/",
-      "isActive": true,
+      "name": "Proyecto Delfín 2023",
+      "startDate": "2022-05-15",
+      "endDate": "2022-06-15",
+      "description": "Diseño, modelado e impresión 3D de un VANT tipo Cuadricoptero para uso de riego agricola en pequeñas parcelas.",
+      "url": "",
+      "isActive": false,
       "highlights": [
-        "Won award at AIHacks 2016"
+        "Arduino",
+        "Blender",
+        "Impresión 3D"
       ]
     },{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "url": "https://project.com/",
-      "isActive": true,
+      "name": "Proyecto Delfín 2022",
+      "startDate": "2019-05-15",
+      "endDate": "2021-06-15",
+      "description": "Plataforma web para capacitación y promoción de la metodología de educación B-Learning para maestros y estudiantes de Guerrero.",
+      "url": "",
+      "isActive": false,
       "highlights": [
-        "Won award at AIHacks 2016"
-      ]
-    },{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "url": "https://project.com/",
-      "isActive": true,
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ]
-      
-    },{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "url": "https://project.com/",
-      "isActive": true,
-      "highlights": [
-        "Won award at AIHacks 2016"
-      ]
-    },{
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "url": "https://project.com/",
-      "isActive": true,
-      "highlights": [
-        "Won award at AIHacks 2016"
+        "Lavarel",
+        "Conexión a Base de Datos",
+        "Formulario de Contacto",
+        "Inicio de sesión"
       ]
     }
   

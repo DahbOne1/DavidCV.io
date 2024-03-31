@@ -6,6 +6,8 @@ import Education from '@/components/sections/Education.astro';
 import About from '@/components/sections/About.astro';
 import Skills from '@/components/sections/Skills.astro';
 import Projects from '@/components/sections/Projects.astro';
+import Languages from '@/components/sections/Languages.astro';
+import Certificates from '@/components/sections/Certificates.astro';
 import KeyboardManager from '@/components/KeyboardManager.astro';
 import {basics} from '@cv';
 const {name, label} = basics;
@@ -15,15 +17,20 @@ const {name, label} = basics;
 <Layout title={`Porfolio de ${name} - ${label}`}>
 	<main>
 		<Hero></Hero>
-		<About></About>
 		<Experience></Experience>
 		<Projects></Projects>
 		<Skills></Skills>
+		<About></About>
 		<Education></Education>
+		<Languages></Languages>
+		<Certificates></Certificates>
 	</main>
 	<KeyboardManager></KeyboardManager>
 </Layout>
 
 <style>
+	main{
+		padding: 10px;
+	}
 	
 </style>
