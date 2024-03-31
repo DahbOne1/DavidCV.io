@@ -150,4 +150,23 @@ const printInfo = [email, phone, linkedUrl, githubUrl].filter(Boolean).join(" | 
         background-color: #eee;
         border: 1px solid #ddd;
     }
+
+    @media only screen and (max-width: 480px) {
+        .container{
+            flex-direction: column-reverse;
+        }
+
+        img{
+            aspect-ratio: 6/5;
+            width: 100%;
+            top: 0;
+        }
+
+        h1{
+            font-size:  2.2rem;
+        }
+    }
+
+
+
 </style>
