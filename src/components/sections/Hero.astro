@@ -6,7 +6,7 @@ import Phone from '../icons/Phone.astro';
 import LinkedIn from '../icons/LinkedIn.astro';
 import Github from '../icons/Github.astro';
 
-const {name, label, image, location, profiles, phone, email} = basics;
+const {name, label, image, location, profiles, phone, email, url} = basics;
 const {country, state, city} = location;
 const SOCIAL_ICONS: Record<string,any> = {
     LinkedIn,
@@ -19,7 +19,7 @@ const githubInfo = profiles.find(({network}) => network == "Github");
 const linkedUrl = linkedInfo?.url
 const githubUrl = githubInfo?.url
 
-const printInfo = [email, phone, linkedUrl, githubUrl].filter(Boolean).join(" | ")
+const printInfo = [email, phone, url, linkedUrl, githubUrl].filter(Boolean).join(" | ")
 ---
 
 <SectionContainer>
