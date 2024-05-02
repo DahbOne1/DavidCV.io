@@ -1,6 +1,10 @@
 ---
+import { projects } from "@cv";
 import SectionContainer from "../SectionContainer.astro";
-import {projects} from "@cv";
+
+/*characteristics.map((characteristic) => {
+    return <span>{characteristic}</span>
+                                })}*/
 
 ---
 
@@ -8,7 +12,7 @@ import {projects} from "@cv";
 <SectionContainer title="Proyectos">
     <ul>
         {
-        projects.map(({ url, description, highlights,name, isActive}) =>{
+        projects.map(({ url, description, highlights,name, isActive, characteristics}) =>{
             
             return(
                 <li>
@@ -27,6 +31,8 @@ import {projects} from "@cv";
                                     return <span>{highlights}</span>
                                 })}                                    
                                 
+                
+
                         </footer>
                     </article>                       
                 </li>
@@ -43,7 +49,7 @@ import {projects} from "@cv";
         display: grid;
         grid-template-columns: repeat(
             auto-fit,
-            minmax(240px, 1fr)
+            minmax(600px, 1fr)
         );
         gap: 1rem;
     }
@@ -102,6 +108,16 @@ import {projects} from "@cv";
         font-weight: 500;
         padding: 0.2rem 0.6rem;
     }
+
+    @media print{
+		ul{
+            display: grid;
+            grid-template-columns: repeat(
+                auto-fit,
+                minmax(600px, 1fr)
+            );
+        }
+	}
 
 
 </style>

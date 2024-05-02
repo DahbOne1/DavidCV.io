@@ -7,10 +7,9 @@
       "phone": "(747) 1 24 08 90",
       "url": "https://davidhernandezbrito.com/",
       "summary": [
-        "Hola, mi nombre completo es David Antonio Hernández Brito, tengo 23 años y soy originario de Guerrero, México. Mi primer Hola mundo fue con Phyton a los 16 años en un curso de programación. Ahora, soy un recién egresado del Tecnológico Nacional de México campus Chilpancingo en la carrera de Ingeniería en Sistemas Computacionales.",
-        "Como estudiante busqué aprovechar cada oportunidad que me brindó mi universidad, participando en 2 veranos de investigación interculturales en el Programa Delfín. Con dos proyectos que fueron retos importantes para mí, al desconocer en profundidad el manejo de las tecnologías que se utilizaron, y que afortunadamente me hicieron crecer a nivel profesional y personal. También tuve la oportunidad de dejar algo a mi institución al ser co-creador del logo del 39 aniversario de la misma.",
-        "Mi proyecto de prácticas profesionales en la Comisión Federal de Electricidad Zona Chilpancingo me permitió vivir la experiencia del mundo laboral de cerca. Al tener la responsabilidad de desarrollar un producto de software funcional y atractivo, sin duda mi mayor reto profesional que he tenido hasta el momento.",
-        "Muchas gracias por darte el tiempo de leerme, ten un buen día."
+        "Desarrollador de software con un año de experiencia, especializado en el desarrollo de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript, Tailwind, Node.js, PHP, Laravel y MySQL.",
+        "He participado en dos veranos de investigación interculturales en el Programa Delfín, donde me enfrenté a retos significativos que aceleraron mi aprendizaje en el manejo de Laravel, Eloquent, Arduino, Blender e impresoras 3D. Este rápido desarrollo de habilidades me ha permitido crecer tanto profesional como personalmente. Además, contribuí como co-creador del logo del 39º aniversario de mi universidad.",
+        "Estoy en búsqueda de una posición que me permita avanzar como desarrollador web, aprovechando mi capacidad para aprender rápidamente y trabajar eficazmente en equipo. Estoy especialmente interesado en roles que me ofrezcan la oportunidad de seguir absorbiendo conocimientos y experiencias significativas de mis colegas y proyectos desafiantes."
       ],
       "location": {
         "country": "México",
@@ -28,14 +27,18 @@
       }]
     },
     "work": [{
-      "name": "Comisión Federal de Electricidad",
-      "position": "Desarrollador de Software | Prácticas Profesionales",
+      "name": "Comisión Federal de Electricidad Zona Chilpancingo",
+      "position": "FullStack Developer",
       "url": "https://company.com",
       "startDate": "2023-10-25",
       "endDate": "2024-02-25",
-      "summary": "Diseño y desarrollo una aplicación web hibrida para la superintendencia de la Comisión Federal de Electricidad Zona Chilpancingo de gestión de parque vehicular.",
+      "summary": "Diseño y desarrollo una aplicación web hibrida de gestión de parque vehicular.",
       "highlights": [
-        "Started the company"
+        "Lideré un equipo de 3 desarrolladores en el diseño y desarrollo de una aplicación robusta, organizando eficazmente la distribución de tareas para garantizar la entrega puntual del proyecto.",
+        "Diseñé y desarrollé una estructura de base de datos en MySQL, estableciendo relaciones clave-primaria y clave-externa para asegurar la integridad y eficiencia de los datos.",
+        "Desarrollé una API RESTful utilizando Laravel para el backend, facilitando la comunicación eficiente entre el servidor y los clientes.",
+        "Diseñé e implementé interfaces de usuario accesibles y responsivas con HTML, CSS, JavaScript y Tailwind CSS, mejorando significativamente la experiencia de usuario en dispositivos múltiples.",
+        "Implementé la metodología Modelo-Vista-Controlador (MVC) para optimizar la calidad del código, resultando en un software más robusto"
       ]
     }],
     "volunteer": [{
@@ -50,13 +53,13 @@
       ]
     }],
     "education": [{
-      "institution": "Tenologico Nacional de México Campus Chilpancingo",
+      "institution": "Tecnológico Nacional de México Campus Chilpancingo",
       "url": "https://chilpancingo.tecnm.mx/",
-      "area": "Ingeria en Sistemas Computacionales",
+      "area": "Ingeniería en Sistemas Computacionales",
       "studyType": "Licenciatura",
-      "startDate": "2011-12-15",
-      "endDate": "2013-07-15",
-      "score": "9.17",
+      "startDate": "2021-12-15",
+      "endDate": "2023-07-15",
+      "score": "9.19",
       "courses": [
         "DB1101 - Basic SQL"
       ]
@@ -150,77 +153,49 @@
       "name": "Conversor Binario",
       "startDate": "2024-01-15",
       "endDate": "2024-02-02",
-      "description": "Aplicación web conversor de números entre varios sistemas numéricos, incluyendo binario, octal, decimal y hexademical. ",
+      "description": "Desarrollé una aplicación web que permite la conversión precisa y eficiente entre diferentes sistemas numéricos, incluyendo binario, octal, decimal y hexadecimal. Esta herramienta ayuda a estudiantes, educadores y profesionales técnicos a comprender y aplicar conceptos de diferentes bases numéricas en su trabajo y estudios diarios.",
       "url": "https://conversorbinario.calculadoradeconjuntos.site/",
       "isActive": true,
       "highlights": [
-        "Diseño Responsivo",
-        "Formulario de Contacto",
+        "HTML",
+        "Tailwind",
         "Vanilla JavaScript"
+      ],
+      "characteristics": [
+        "Diseñé una interfaz de usuario amigable y responsive utilizando HTML5 y CSS3, que se adapta a dispositivos móviles y de escritorio, asegurando accesibilidad y facilidad de uso.",
+        "Implementé algoritmos de conversión optimizados en JavaScript que garantizan resultados rápidos y precisos para todas las conversiones entre los sistemas numéricos soportados."
       ] },{
       "name": "Calculadora de Conjuntos",
       "startDate": "2024-02-18",
       "endDate": "2021-03-02",
-      "description": "Aplicación web que permite realizar operaciones con 2 conjuntos de números, incluyendo los las operaciones de unión, intersección, diferencia y diferencia simétrica.",
+      "description": "Diseñé y desarrollé una aplicación web interactiva que facilita la realización de operaciones entre dos conjuntos de números, proporcionando herramientas para ejecutar uniones, intersecciones, diferencias y diferencias simétricas. Este proyecto está dirigido a estudiantes y profesionales que necesitan herramientas computacionales para entender y manipular conceptos matemáticos de teoría de conjuntos.",
       "url": "https://calculadoradeconjuntos.site/",
       "isActive": true,
       "highlights": [
-        "Diseño Responsivo",
+        "HTML",
+        "Tailwind",
         "Vanilla JavaScript"
-      ]
-    },{
-      "name": "Carbonell + Zapata",
+      ],
+      "characteristics": [
+        "Diseñé una interfaz de usuario amigable y responsive utilizando HTML5 y CSS3, que se adapta a dispositivos móviles y de escritorio, asegurando accesibilidad y facilidad de uso.",
+        "Implementé algoritmos de conversión optimizados en JavaScript que garantizan resultados rápidos y precisos para todas las conversiones entre los sistemas numéricos soportados."
+      ]},{
+      "name": "Carbonell + Zapata Inmigration Law",
       "startDate": "2023-06-22",
       "endDate": "2023-07-28",
-      "description": "Página web informativa sobre el despacho de abogados Carbonell Zapata Migration Law, dedicado a trat situaciones legales migratorias.",
+      "description": "Desarrollé el sitio web oficial para Carbonell Zapata Inmigration Law, un despacho de abogados especializado en leyes migratorias que operan entre México y los Estados Unidos. El sitio proporciona recursos, asesoramiento legal y actualizaciones de políticas para ayudar a individuos y familias a navegar por los complejos procesos migratorios.",
       "url": "https://carbonellzapata.info/",
       "isActive": true,
       "highlights": [
-        "Diseño Responsivo",
-        "Formulario de Contacto",
-        "Multi-idioma"
-      ]
-    },{
-      "name": "GEVE",
-      "startDate": "2023-10-25",
-      "endDate": "2024-02-25",
-      "description": "Proyecto de practicas profesionales para la Comisión Federal de Electricidad.",
-      "url": "",
-      "isActive": false,
-      "highlights": [
-        "Diseño Responsivo",
-        "Lavarel",
-        "Conexión a Base de Datos",
-        "Envio de Formulario",
-        "Inicio de Sesión"
-      ]
-      
-    },{
-      "name": "Proyecto Delfín 2023",
-      "startDate": "2022-05-15",
-      "endDate": "2022-06-15",
-      "description": "Diseño, modelado e impresión 3D de un VANT tipo Cuadricoptero para uso de riego agricola en pequeñas parcelas.",
-      "url": "",
-      "isActive": false,
-      "highlights": [
-        "Arduino",
-        "Blender",
-        "Impresión 3D"
-      ]
-    },{
-      "name": "Proyecto Delfín 2022",
-      "startDate": "2019-05-15",
-      "endDate": "2021-06-15",
-      "description": "Plataforma web para capacitación y promoción de la metodología de educación B-Learning para maestros y estudiantes de Guerrero.",
-      "url": "",
-      "isActive": false,
-      "highlights": [
-        "Lavarel",
-        "Conexión a Base de Datos",
-        "Formulario de Contacto",
-        "Inicio de sesión"
-      ]
-    }
+        "HTML",
+        "CSS",
+        "Vanilla JavaScript",
+        "JSON"
+      ],
+      "characteristics": [
+        "Diseñé una interfaz de usuario amigable y responsive utilizando HTML5 y CSS3, que se adapta a dispositivos móviles y de escritorio, asegurando accesibilidad y facilidad de uso.",
+        "Implementé algoritmos de conversión optimizados en JavaScript que garantizan resultados rápidos y precisos para todas las conversiones entre los sistemas numéricos soportados."
+      ]}
   
     ]
   }

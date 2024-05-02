@@ -1,11 +1,12 @@
 ---
+import { work } from "@cv";
 import SectionContainer from "../SectionContainer.astro";
-import {work} from "@cv";
+
 ---
 
 
 <SectionContainer title="Experiencia">
-    <ul>
+    <ul class="work">
         {work.map(({name, startDate,endDate,position, summary, highlights})=>
         {
             const startYear = new Date(startDate).getFullYear();
@@ -22,7 +23,14 @@ import {work} from "@cv";
                             <time>{years}</time>
                         </header>
                         <footer>
-                            <p>{summary}</p>
+                            <ul class="highlights_work">
+                                {highlights.map((highlight => {
+                                    return(
+                                        <li>{highlight}</li>
+                                    )
+                                }))}
+                            </ul>
+                            
                         </footer>    
                     </article>
                 </li>
@@ -36,13 +44,29 @@ import {work} from "@cv";
     ul{
         display: flex;
         flex-direction: column;
-        gap: 32px;
         margin: 0;
         padding: 0;
     }
 
     li{
         margin: 0;
+    }
+
+    .work{
+        gap: 32px;
+    }
+
+    .highlights_work{
+        margin-left: 1rem;
+        font-size: 0.7rem;
+        color: #444;
+        font-weight: 200;
+        gap: 4px;
+        list-style: disc;
+    }
+
+    .highlights_work li{
+        line-height: 14px;
     }
 
     article h3{
