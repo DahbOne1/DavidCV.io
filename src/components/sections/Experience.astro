@@ -3,8 +3,6 @@ import { work } from "@cv";
 import SectionContainer from "../SectionContainer.astro";
 
 ---
-
-
 <SectionContainer title="Experiencia">
     <ul class="work">
         {work.map(({name, startDate,endDate,position, summary, highlights})=>
@@ -53,7 +51,7 @@ import SectionContainer from "../SectionContainer.astro";
     }
 
     .work{
-        gap: 32px;
+        gap: 26px;
     }
 
     .highlights_work{
@@ -61,12 +59,12 @@ import SectionContainer from "../SectionContainer.astro";
         font-size: 0.7rem;
         color: #444;
         font-weight: 200;
-        gap: 4px;
+        gap: 2px;
         list-style: disc;
     }
 
     .highlights_work li{
-        line-height: 14px;
+        line-height: 12px;
     }
 
     article h3{

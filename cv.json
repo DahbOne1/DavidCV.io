@@ -4,12 +4,11 @@
       "label": "Ingeniero en Sistemas Computacionales",
       "image": "/img/ImgHero.webp",
       "email": "David.arcos1000@gmail.com",
-      "phone": "(747) 1 24 08 90",
+      "phone": "(747) 2 22 89 10",
       "url": "https://davidhernandezbrito.com/",
       "summary": [
         "Desarrollador de software con un año de experiencia, especializado en el desarrollo de aplicaciones web utilizando tecnologías como HTML, CSS, JavaScript, Tailwind, Node.js, PHP, Laravel y MySQL.",
-        "He participado en dos veranos de investigación interculturales en el Programa Delfín, donde me enfrenté a retos significativos que aceleraron mi aprendizaje en el manejo de Laravel, Eloquent, Arduino, Blender e impresoras 3D. Este rápido desarrollo de habilidades me ha permitido crecer tanto profesional como personalmente. Además, contribuí como co-creador del logo del 39º aniversario de mi universidad.",
-        "Estoy en búsqueda de una posición que me permita avanzar como desarrollador web, aprovechando mi capacidad para aprender rápidamente y trabajar eficazmente en equipo. Estoy especialmente interesado en roles que me ofrezcan la oportunidad de seguir absorbiendo conocimientos y experiencias significativas de mis colegas y proyectos desafiantes."
+        "He participado en dos veranos de investigación interculturales en el Programa Delfín, donde me enfrenté a retos significativos que aceleraron mi aprendizaje en el manejo de Laravel, Eloquent, Arduino, Blender e impresoras 3D. Este rápido desarrollo de habilidades me ha permitido crecer tanto profesional como personalmente."
       ],
       "location": {
         "country": "México",
@@ -27,11 +26,26 @@
       }]
     },
     "work": [{
+      "name": "Desarrolllador Web",
+      "position": "Independiente",
+      "url": "https://company.com",
+      "startDate": "2023-02-25",
+      "endDate": "2025-01-25",
+      "summary": "Desarrollador web independiente",
+      "highlights": [
+        "Diseño y desarrollo de Landing Pages para empresas y negocios.",
+        "Sitio multilidioma con JavaScript y Archivos JSON.",
+        "Envío de formulario de contacto y diseño responsivo para dispositivos móviles.",
+        "Experiencia en HTML5, CSS3 y JavaScript Vanilla.",
+        "https://www.consorcioabastecedorchapingo.com/",
+        "https://carbonellzapata.info/"
+      ]
+    },{
       "name": "Comisión Federal de Electricidad Zona Chilpancingo",
       "position": "FullStack Developer",
       "url": "https://company.com",
       "startDate": "2023-10-25",
-      "endDate": "2024-02-25",
+      "endDate": "2024-01-25",
       "summary": "Diseño y desarrollo una aplicación web hibrida de gestión de parque vehicular.",
       "highlights": [
         "Lideré un equipo de 3 desarrolladores en el diseño y desarrollo de una aplicación robusta, organizando eficazmente la distribución de tareas para garantizar la entrega puntual del proyecto.",
@@ -39,6 +53,45 @@
         "Desarrollé una API RESTful utilizando Laravel para el backend, facilitando la comunicación eficiente entre el servidor y los clientes.",
         "Diseñé e implementé interfaces de usuario accesibles y responsivas con HTML, CSS, JavaScript y Tailwind CSS, mejorando significativamente la experiencia de usuario en dispositivos múltiples.",
         "Implementé la metodología Modelo-Vista-Controlador (MVC) para optimizar la calidad del código, resultando en un software más robusto"
+      ]
+    },{
+      "name": "Colegio Crica A. C.",
+      "position": "Auxiliar de tecnologías de la información en Colegio Crica A. C. | Independiente",
+      "url": "https://company.com",
+      "startDate": "2024-05-03",
+      "endDate": "2025-03-15",
+      "summary": "Automatización de procesos.",
+      "highlights": [
+        "Realicé mantenimiento correctivo y preventivo de la red del colegio.",
+        "Rehabilité y documenté la red de internet en los tres niveles educativos.",
+        "Diseñé y construí la nueva página web oficial.",
+        "Desarrollé un sistema de administración de registros de alumnos."
+      ]
+    },{
+      "name": "Verano de la Investigación Científica y Tecnológica del Pacífico",
+      "position": "Desarrollador de Software",
+      "url": "https://company.com",
+      "startDate": "2023-05-15",
+      "endDate": "2023-06-15",
+      "summary": "Verano de investigación cientifica.",
+      "highlights": [
+        "Diseño y creación de prototipos de vehículos aéreos mediante programación de microcontroladores.",
+        "Fabricación de piezas de vehículos utilizando impresión 3D.",
+        "Ensamblaje de vehículos con las partes impresas.",
+        "Participación en eventos científicos internacionales para presentar proyectos."
+      ]
+    },{
+      "name": "Verano de la Investigación Científica y Tecnológica del Pacífico",
+      "position": "Desarrollador fullstack jr",
+      "url": "https://company.com",
+      "startDate": "2022-05-15",
+      "endDate": "2022-06-15",
+      "summary": "Verano de investigación cientifica.",
+      "highlights": [
+        "Diseño de interfaz y base de datos para plataforma web.",
+        "Desarrollo de casos de uso para nuevas funcionalidades.",
+        "Aplicación de arquitectura MVC con framework Laravel.",
+        "Participación en congreso internacional."
       ]
     }],
     "volunteer": [{
@@ -71,27 +124,27 @@
       "summary": "There is no spoon."
     }],
     "certificates": [{
-      "name": "Certificado en HTML",
+      "name": "Curso en HTML",
       "date": "2020-07",
       "issuer": "SoloLearn",
       "url": "https://www.sololearn.com/certificates/CT-3AXD9XLJ"
     },{
-      "name": "Certificado en CSS",
+      "name": "Curso en CSS",
       "date": "2021-07",
       "issuer": "SoloLearn",
       "url": "https://www.sololearn.com/certificates/CT-TK6LAGUZ"
     },{
-      "name": "Certificado en JavaScript",
+      "name": "Curso en JavaScript",
       "date": "2022-01",
       "issuer": "SoloLearn",
       "url": "https://www.sololearn.com/certificates/CT-W2YE7AJN"
     },{
-      "name": "Certificado en Java",
+      "name": "Curso en Java",
       "date": "2022-08",
       "issuer": "SoloLearn",
       "url": "https://www.sololearn.com/certificates/CT-8WAUFZ2M"
     },{
-      "name": "Certificado en Resposive Web Design",
+      "name": "Curso en Resposive Web Design",
       "date": "2022-12",
       "issuer": "SoloLearn",
       "url": "https://www.sololearn.com/certificates/CT-QR1N5BWS"

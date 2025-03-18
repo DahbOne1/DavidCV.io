@@ -34,7 +34,6 @@
 <ninja-keys data-info={JSON.stringify(profilesInfo)} placeholder="Buscar comandos" hideBreadcrumbs></ninja-keys>
 <script>
     import "ninja-keys"
-
     const ninja = document.querySelector("ninja-keys")
     if(ninja != null){
         const info = ninja.getAttribute("data-info") ?? "[]";
@@ -70,7 +69,6 @@
             display: none !important;
         }
     }
-
     @keyframes fadeIn {
         from {
             opacity: 0;
@@ -80,7 +78,6 @@
             opacity: 1;
         }
     }
-
     footer{
         background: #fdfdfd;
         border-top: 1px solid #eee;
@@ -97,7 +94,6 @@
         animation-timeline: --revealing;
         animation-range: entry 100% cover 10%;
     }
-
     kbd{
         background: #eee;
         border-radius: 4px;
